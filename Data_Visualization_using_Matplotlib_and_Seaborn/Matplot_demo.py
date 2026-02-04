@@ -1,4 +1,4 @@
-# import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt 
 # plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
 # print("Ploat created successfully.")
 # plt.show()
@@ -18,13 +18,13 @@
 #     plt.legend()
 #     plt.show()
     
-# import numpy as np
+import numpy as np
 
-# for i in range(50):
-#     plt.plot(np.random.rand(100), linewidth=1)
+for i in range(50):
+    plt.plot(np.random.rand(100), linewidth=1)
 
-# plt.title("Too Much Data Can Be Confusing!")
-# plt.grid(True)
-# plt.tight_layout()
-# plt.show()
-# print("Plot displayed successfully.")
+plt.title("Too Much Data Can Be Confusing!")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+print("Plot displayed successfully.")
